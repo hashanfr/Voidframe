@@ -1,11 +1,30 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# Virtual environment
 .venv/
 venv/
-.env
-.idea/
+env/
+
+# IDE
 .vscode/
-*.mp4
-*.avi
-*.mov
+.idea/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Python cache
+.pytest_cache/
+
+# MediaPipe model
+models/hand_landmarker.task
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
